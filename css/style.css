@@ -1,0 +1,22 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-height: 300px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.col{
+    width: calc(100% / 3);
+    padding: 20px 40px;
+    display: flex; 
+}
