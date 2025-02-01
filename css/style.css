@@ -8,15 +8,19 @@
 .container {
     width: 80%;
     margin: 0 auto;
-    max-height: 300px;
+    text-align: center;
+    color: red
 }
 .row {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 .col{
     width: calc(100% / 3);
     padding: 20px 40px;
     display: flex; 
+    border: 40px solid white;
+    background-color: black;
+    color: white
 }
